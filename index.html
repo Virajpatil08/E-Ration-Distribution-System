@@ -1,0 +1,234 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <link rel="icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAH0AAAB9CAMAAAC4XpwXAAAAaVBMVEX///8AAADq6uocHBwrKyslJSXIyMhtbW2YmJjy8vLh4eHOzs75+fn8/PwXFxfk5OS2traAgIBSUlKPj49ISEjAwMB2dnba2tpmZmYyMjJZWVleXl6GhoasrKwLCwtNTU1BQUGhoaE5OTnSGlZXAAAE+0lEQVRoge2ba5eqIBSGw2oKk26mZhdP9f9/5BEU2BAoIuNZZy33h1mTg/sZYLO5vS0WXna879Erjf1eHmnJDTX2IP+AfkLc7snk8MNS0NF1cnqGgL2npr8hHeGJ6alCz/8pHU087tSWR6dp6T8qvYompe9UOnpOSo9WKv38q7S4KGJlXP1R6cuD/FOCqYWk06xebnbywUamundV/8zEX/ClrG2VBqRvG9JDPJBBjxf4CqOep8GA6Z/H+IY/KAT9dqDESpYt2eNtOPiCrFvWsX1wAMOtDvjoVvCiSaU1UwDjLb1uP+MLiLm6nliM+KPokXCWcBqv4wbQUWooGLLpxQjnTh/IjH/yR/uwM18zs/C1hDLDSzyWaShoz9eN+pOeTrzukUrn4fiWT/YHqydPi4qfrGABlmh0xJ6KsaFFQwBL3mfmtbrSzHaTmD39wZYYSn+se/wNMjirXmKwwMgwW+HS5JYrzfETDq4GOTrycY2qOv0XH4ToLKCWCTfvamupulfBr2RBUhZ3WpFQcG2A0SqD3691yL2zL3qoMZdoqwndPvXoIsHphK0UcPLuhtfLi5iWI+rDU7PQwL5bPT2n+JnvmjNa9vvuteVMn+ke9Crf+FheBaH7zlbrmT7TZ/pMn+kzfaY3hrM8f4rigenRM8+zjlOFHTtxqvgOLCz9yVYb5c5WPOaroewX6GI3ZjtQf/EC7WFfSLo8b3iZS4NTuCw4HWxEzZUHBwTb4PStdG7u+ano5kONmT7TZ3pDX3nSV0HoaOVnKAx9lM30/4++D0Dfe9M/ntEO7eNLJ1EII570kDbT/wd6eCXF05m+LIx/H2fF0o3++h3dWPJyoe/paj/JHql1xzXQdukjoxWK9w50eo8WsZvOTYhGSNhd/Y1mvNSBTqveXrPeA9DvjavbQuxSu+glBqqOP6PhQppTRzIue+kXLNUT4/FSF3QUco2+uoORfx+j2yR3ZZR31n0n+p2Aq8+rP55cpZsVEf1uHkux1MrAa1//0AM1ZycCzTV6Zd6/k/YSiComjuBF376HWjB6QX5or4ksjdmKZVY4CF6H43W3Nz4TvMhCmRZ8Qg8GHJu0yAt8MJlQ6W4oDeoNBoceDDiWPQmXJy2tUhgh22A39yfgYGjoQTjTvwnhhl0AKw7sGtEEVFMNUy+ewZtMFycbskP/+haFtnoNhuAhnImj5MqmS/hMzkox8uXGyZR/miiVOncGUCI3TzQ/kFJvQgeDHVZSmsxdy545G+zdaEbEUG7iVntYc5Y6pPy2/7T8IKQ0TCam7OVuDnCgwGr2cAfhoXLQncV79eVqEB7CGS2StXGSe0vF6FfO7W182OxKfkVSFtljsqM+9CPMmT2hp+gtWYb6iI/Oi1RZ3Xyhi7a78Aqc4aTo7djxnmZyiqHNpfjsSLp3teACduKg3ZHA06qeVK82vAan6V00xsCt2bt97ZKoky01s3JO1+A9gbx28BdL2tS8OmaZJiw0B5Au6UePLHu2Ae+xJT7p7qSZZpyzvbjXFytyu7/vyn9VXZrnV1rs+G+HQ8q6WbKxefw+NF/bivpvRRNbZ36JtLHtYPE8Yh+clBanes4uLOXKUZtwbDmq1cPOEnTLkUJ2bO5QN/p6tIo+MuKd6OsAX2EydqkTPcjRl2ncudBdV6HddjR4dqEPmNE7zNT0LvQwZ46xwbMLPcx3Bmf6r9D/AgDmQiYYkJVaAAAAAElFTkSuQmCC"/>
+    <title>Ration Distribution</title> 
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body style="background-color: rgb(215, 219, 207);">
+    <center><nav class="navbar navbar-expand-lg fixed-top " style="background-color: rgb(24, 23, 23);">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ">
+                    <li class="nav-item">
+                        <button type="button" class="btn btn-outline-secondary"><a class="nav-link active"
+                                aria-current="page">Home</a></button>
+
+                    </li>
+                    <li class="nav-item" style="padding-left: 10%;" >
+                        <button type="button" class="btn btn-outline-secondary"><a class="nav-link active"
+                            aria-current="page" href="#">About</a></button>
+                        
+                    </li>
+                    <li class="nav-item" style="padding-left: 10%;">
+                        <button type="button" class="btn btn-outline-secondary"><a class="nav-link active"
+                            aria-current="page" href="retailer.html">Retailer</a></button>
+                        
+                    </li>
+                    <li class="nav-item" style="padding-left: 10%;">
+                        <button type="button" class="btn btn-outline-secondary"><a class="nav-link active"
+                            aria-current="page" href="customer.html">Customer</a></button>
+                        
+                    </li>
+                    <li class="nav-item" style="padding-left: 10%;">
+                        <button type="button" class="btn btn-outline-secondary"><a class="nav-link active"
+                            aria-current="page" href="">Contact </a></button>
+                        
+                    </li>
+                  <li>
+                    
+                  </li>
+                     
+                </ul>
+            </div>
+        </div></center>
+    </nav>
+
+    <div id="myCarousel" class="carousel slide pointer-event" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class=""
+                aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"
+                class=""></button>
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3" class="active"
+                aria-current="true"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item">
+                <img src="new133.jpg" alt="" width="100%" height="440px">
+
+                <div class="container">
+                    <div class="carousel-caption text-start">
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="new2.png" alt="" width="100%" height="440px">
+                <div class="container">
+
+                </div>
+            </div>
+            <div class="carousel-item active">
+                <img src="new12.jpg" alt="" width="100%" height="440px">
+
+                <div class="container">
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <hr>
+    <div class="head">
+        <h1> <b><marquee direction="right" onmouseover="stop()" scrollamount="25">Government of India  | Ration Distribution Portal </b> </h1></marquee>
+    </div>
+    <div class="content">
+        <p> We are here to provide Digital transaction service in the ration distribution system. This will help common
+            people(customers) and the retailer for the purpose of transparency in system.</p>
+    </div>
+    <div class="follow">
+        <button type="button" class="btn btn-dark fw-bolder">Grain items</button>
+    </div>
+    <hr>
+    <div class="item">
+        <div class="row">
+            <div class="col-lg-4">
+                <img src="maize.png" alt="" height="140" width="140" style="border-radius: 15px;">
+
+                <h2>Maize</h2>
+                <p>5kg per Month(AAY)</p>
+                <p>Price = 2Rs./kg</p>
+                <p><a class="btn btn-outline-success" href="customer.html">Available</a></p>
+            </div><!-- /.col-lg-4 -->
+            <div class="col-lg-4">
+                <img src="rice.png" alt="" width="140" height="140" style="border-radius: 15px;">
+
+                <h2>Rice</h2>
+                <p>20kg per Month(AAY)</p>
+                <p>Price = 3Rs./kg</p>
+                <p><a class="btn btn-outline-success" href="customer.html">Available</a></p>
+            </div><!-- /.col-lg-4 -->
+            <div class="col-lg-4">
+                <img src="wheat.png" alt="" height="140" width="140" style="border-radius: 15px;">
+
+                <h2>Wheat</h2>
+                <p>15kg per Month(AAY)</p>
+                <p>Price = 2Rs./kg</p>
+                <p><a class="btn btn-outline-success" href="customer.html">Available</a></p>
+            </div><!-- /.col-lg-4 -->
+        </div>
+    </div>
+    <div class="item" style="padding-top: 20px;">
+        <div class="row">
+            <div class="col-lg-4">
+                <img src="dal.png" alt="" height="140" width="140" style="border-radius: 15px;">
+
+                <h2> Chana Daal</h2>
+                <p>2kg per Month(AAY)</p>
+                <p>Price = 15Rs./kg</p>
+                <p><a class="btn btn-outline-success" href="customer.html">Available</a></p>
+            </div><!-- /.col-lg-4 -->
+            <div class="col-lg-4">
+                <img src="sugar.png" alt="" width="140" height="140" style="border-radius: 15px;">
+
+                <h2>Sugar</h2>
+                <p>5kg per Month(AAY)</p>
+                <p>Price = 10Rs./kg</p>
+                <p><a class="btn btn-outline-success" href="customer.html">Available</a></p>
+            </div><!-- /.col-lg-4 -->
+            <div class="col-lg-4">
+                <img src="toor dal.jpg" alt="" height="140" width="140" style="border-radius: 15px;">
+
+                <h2>Toor Daal</h2>
+                <p>1kg per Month(AAY)</p>
+                <p>Price = 20Rs./kg</p>
+                <p><a class="btn btn-outline-danger">Not Available</a></p>
+            </div><!-- /.col-lg-4 -->
+        </div>
+    </div>
+    
+    
+<footer class="footer-distributed">
+
+      <div class="footer-left">
+
+        <h3>Government of India 
+
+            <span></span></h3>
+        <h5 > Azadi Ka Amrit Mahotsav🎊☮️ </h5>
+
+        <p class="footer-links">
+          <a href="#" class="link-1">Home</a>
+          
+          <a href="#">About</a>
+        
+          <a href="retailer.html">Retailer</a>
+        
+          <a href="customer.html">Customer</a>
+          
+          <a href="">Contact</a>
+        </p>
+
+        <p class="footer-company-name">created by LY B.TECH CSE © 2022</p>
+      </div>
+
+      <div class="footer-center">
+
+        <div>
+          <i class="fa fa-map-marker fw-bolder"></i>
+          <p><span> Food and Public Distribution
+            Department of India
+          </span>   Krishi Bhawan,
+          New Delhi - 110001.</p>
+        </div>
+
+        <div>
+          <i class="fa fa-phone"></i>
+          <p>0211-1234567</p>
+        </div>
+
+        <div>
+          <i class="fa fa-envelope"></i>
+          <p><a href="mailto:ration@govindia.com">ration@GovIndia75.com</a></p>
+        </div>
+
+      </div>
+
+      <div class="footer-right">
+
+        <p class="footer-company-about">
+          <span>Ministry Of Food Distribution,INDIA</span>
+        <strong > The Department of Food and Public Distribution is responsible for management of the food economy of the nation.</strong> 
+        </p>
+
+        
+      </div>
+
+    </footer>
+    
+    
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+   
+</body>
+
+</html>
